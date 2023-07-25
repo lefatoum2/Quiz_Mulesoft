@@ -7,14 +7,14 @@ export const quiz = {
         answers: ['Anypoint Design Center is a platform building a connector between two computer systems',
         'Anypoint Design Center designs and builds APIs and integrations at lightning speed, all in one product',
         'Anypoint Design Center is a cloud for building a SOAP API',
-        'Anypoint Design Center is an severless integration tool'
+        'Anypoint Design Center is a severless integration tool'
       ],
         correctAnswer: 'Anypoint Design Center designs and builds APIs and integrations at lightning speed, all in one product'
       },
       {
         id: 2,
         question: 'What for is Anypoint Exchange?',
-        answers: ['A tool for send a mail.','s a curated catalog of reusable assets.','A currency converter','The marketplace for computer systems'],
+        answers: ["A tool for send a mail",'Is a curated catalog of reusable assets','A currency converter','The marketplace for computer systems'],
         correctAnswer: 's a curated catalog of reusable assets.',
       },
 
@@ -32,7 +32,7 @@ export const quiz = {
         question: 'What is The Problem with Systems and Data Integration?',
         answers:     ["A russian service for testing API specification","The mocking service is only meant for testing and not for production use","A service for for sending a alert mail","A service for for sending a alert mail"]
         ,
-        correctAnswer: "A russian service for testing API specification",
+        correctAnswer: "The mocking service is only meant for testing and not for production use",
       },
       {
         id: 5,
