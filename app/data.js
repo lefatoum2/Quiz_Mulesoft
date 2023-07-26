@@ -1,5 +1,5 @@
 export const quiz = {
-    totalQuestions: 8,
+    totalQuestions: 12,
     questions: [
       {
         id: 1,
@@ -74,8 +74,20 @@ export const quiz = {
         answers: ["Synchronize data across different systems.","Filter and route data through a flow based on conditions","Extract data from connected systems based on a specific event or schedule.","A , B, C"]
         ,
         correctAnswer: "A , B, C",
+      },
+      
+      {
+        id: 11,
+        question:  "You want to build a flow that accesses various external systems. Which MuleSoft Composer flow component should you use?",
+        answers: ["Trigger","Scheduler","Connection","Adapter"],
+        correctAnswer: "Connection",
+      },
+      {
+        id: 12,
+        question:  "What's the next step after you design a flow?",
+        answers: ["Test","Manage","Activate","Monitor"],
+        correctAnswer: "Test",
       }
-
     ],
   };
   
