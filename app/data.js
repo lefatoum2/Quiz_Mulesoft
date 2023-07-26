@@ -34,6 +34,7 @@ export const quiz = {
         ,
         correctAnswer: "The mocking service is only meant for testing and not for production use",
       },
+      /* MuleSoft Composer Basics */
       {
         id: 5,
         question: 'What is Mulesoft Composer?',
@@ -60,7 +61,21 @@ export const quiz = {
         answers: ["Design,Plan and test,Activate,Monitor and troubleshoot,Deactivate","Plan,Design and test,Activate,Monitor and troubleshoot,Deactivate","Plan,Design and test,Activate,Deactivate,Monitor and troubleshoot","Activate,Plan,Design and test,Monitor and troubleshoot,Deactivate"]
         ,
         correctAnswer: "Plan,Design and test,Activate,Monitor and troubleshoot,Deactivate",
+      },
+      {
+        id: 9,
+        question:  "What group of users should use MuleSoft Composer to perform integration tasks?",
+        answers: ['Integration architects','Java developpers','Business analysts','Integration developpers'],
+        correctAnswer: 'Business analysts',
+      },
+      {
+        id: 10,
+        question:  "What does MuleSoft Composer enable you to do?",
+        answers: ["Synchronize data across different systems.","Filter and route data through a flow based on conditions","Extract data from connected systems based on a specific event or schedule.","A , B, C"]
+        ,
+        correctAnswer: "A , B, C",
       }
+
     ],
   };
   
